@@ -1,0 +1,18 @@
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+
+fortunes:
+  ribbon:
+    ServerListRefreshInterval: 5000
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+    
+fortune:
+  fallbackFortune: Cookie monster ate all fortune cookies.
